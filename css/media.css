@@ -1,0 +1,59 @@
+           /*  lg  */
+@media (max-width: 1199px){
+
+}
+           /*  md  */
+@media (max-width: 991px){
+	header h1{
+		font-size: 32px;
+	}
+	.skills h2{
+		font-size: 15px;
+	}
+}
+           /*  sm  */
+@media (max-width: 767px){
+	.btn{
+		font-size: 16px;
+		font-weight: 300;
+		padding: 10px 51px;
+		border-radius: 5px;
+		margin-top: 30;
+	}
+	.portfolio h5{
+		font-size: 12px;
+	}
+	.feedback{
+		text-align: center;
+	}
+	footer ul li a{
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 15px;
+   }
+}
+           /*  col  */
+@media (max-width: 575px){
+	header h1{
+		font-size: 22px;
+	}
+	.btn {
+    font-size: 12px;
+    padding: 4px 25px;
+   }
+   .heading p{
+   	font-weight: 400;
+   	font-size: 14px;
+   }
+   .heading h1{
+   	font-size: 18px;
+   }
+   footer ul li a{
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 12px;
+   }
+   .portfolio-btn button {
+    padding: 5px 10px;
+   }
+}

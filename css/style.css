@@ -1,0 +1,336 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');*/
+
+@font-face{
+	font-family: "ChevinMedium", sans-serif;
+	src:url(../ChevinMedium/ChevinMedium.otf);
+}
+
+body{
+	font-family: 'ChevinMedium', sans-serif;
+}
+
+header{
+	background-color: #87509C;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 15px;
+    transition: all 0.4s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	background-color: #643A79;
+	color: rgb(255 255 255);
+}
+header h1{
+	color: #fff;
+}
+.btn {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 14px 65px;
+	border-radius: 5px;
+	transition: all 0.4s ease;
+	margin-top: 30px;
+}
+.btn-orange{
+	background-color: #EB7D4B;
+	border-bottom: 7px solid #C86A40;
+    border-right: 7px solid #transparent;
+}
+.btn:hover{
+	border-bottom: 7px solid transparent;
+	border-right: 7px solid #C86A40;
+	color: #fff;
+}
+header .row{
+	min-height: 100vh;
+	align-items: center;
+}
+section{
+	padding: 100px 0;
+}
+.service-section{
+	background-color: #17C2A4;
+}
+.heading{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.heading h1{
+	text-transform: uppercase;
+	font-size: 43px;
+	font-weight: 500;
+}
+.heading span{
+	background: #00000038;
+	width: 80px;
+	height: 5px;
+	display: block;
+	margin: 10px auto;
+}
+.heading p{
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.service{
+	text-align: center;
+}
+.service img{}
+.service h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 40px 0 20px;
+	font-weight: 600;
+}
+.service p{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.team-section{
+	background-color: #E7F1F8;
+}
+.team-section .heading, .skills-section .heading, .portfolio-section .heading{
+	color: #3C4761;
+}
+.team-section .heading h1{
+	text-transform: capitalize;
+	font-size: 42px;
+}
+.team-section .heading p{
+	font-weight: 500;
+	font-size: 18px;
+}
+.team{
+	text-align: center;
+}
+.team h2{
+	color: #3C4761;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 40px 0 0;
+	font-weight: 600;
+}
+.team p{
+	font-size: 16px;
+	color: #3C4761;
+	font-weight: 300;
+}
+.team h4{
+	margin-bottom: 20px;
+	color: #30BAE7;
+	font-size: 16px;
+	font-weight: 500;
+}
+.team ul{
+	justify-content: center;
+}
+.team ul li{
+	padding: 0 4px;
+}
+.team ul li a{
+	background: #BDD1DF;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	font-size: 12px;
+	transition: all 0.4s ease;
+}
+.team ul li a:hover{
+	background-color: #3C4761;
+}
+
+.skills{
+	text-align: center;
+}
+.skills div img{}
+.skills div{
+	position: relative;
+}
+.skills div h4{
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%, 50%);
+	margin: 0px;
+	font-size: 30px;
+	color: #3C4761;
+}
+.skills h2{	
+	color: #3C4761;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 10px 0 0;
+	font-weight: 600;
+}
+.portfolio-section{
+	background-color: #FFDD99;
+}
+.portfolio-btn{
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.portfolio-btn li{
+	margin: 0 6px;
+}
+.portfolio-btn button{
+	border: 0;
+	background-color: #EBC985;
+	color: #3C4761;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 5px 20px;
+	border-radius: 5px;
+	transition: all 0.4s ease;
+}
+.portfolio-btn button:hover{
+	background-color: #fff;
+}
+.portfolio-btn button:focus{
+	background-color: #DFDAFF;
+}
+.portfolio{
+	margin-bottom: 40px;
+	display: block;
+	text-align: center;
+}
+.portfolio img{}
+.portfolio h5{
+	margin-top: 20px;
+	color: #3C4761;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 10px 0 0;
+	font-weight: 100;
+}
+
+.btn-project {
+    background-color: #17C2A4;
+    border-bottom: 7px solid #14A58C;
+    border-right: 7px solid transparent;
+}
+.btn-project:hover{
+	border-bottom: 7px solid transparent;
+	border-right: 7px solid #14A58C;
+	color: #fff;
+}
+             /* --btn learning  ^|^
+.btn-orange{
+	background-color: #EB7D4B;
+	border-bottom: 7px solid #C86A40;
+    border-right: 7px solid #transparent;
+}
+.btn:hover{
+	border-bottom: 7px solid transparent;
+	border-right: 7px solid #C86A40;
+	color: #fff;
+}
+             -- btn learning  */
+.feedback-section{
+	background: #D74680;
+}
+.feedback-section .heading h1{
+	text-transform: capitalize;
+    font-size: 42px;
+}
+.feedback{
+	color: #fff;
+	margin-bottom: 40px;
+}
+.feedback img{}
+.feedback p{
+	font-style: italic;
+	font-size: 17px;
+}
+.feedback h3{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 600;
+	margin: 0;
+}
+.feedback h6{
+	color: #FFDD99;
+	font-size: 15px;
+}
+.contact-section{
+	background: #3C5499;
+}
+.btn-sky-blue{
+	background-color: #30BAE7;
+    border-bottom: 7px solid #299EC5;
+    border-right: 7px solid #transparent;
+}
+.btn-sky-blue:hover{
+    border-right: 7px solid #299EC5 !important;
+}
+.form-control{
+    padding: 20px 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #273a71;
+    border: 1px solid #273A71;
+}
+.form-control:focus{
+    color: #ffffff;
+    background-color: #fff0;
+    border-color: #273A71;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgb(0 123 255 / 0%);
+}
+::placeholder{
+	color: #fff !important;
+}
+::-webkit-placeholder{
+	color: #fff !important;
+}
+::-moz-placeholder{
+	color: #fff !important;
+}
+::-ms-placeholder{
+	color: #fff !important;
+}
+footer{
+	background: #344B8E;
+	padding: 20px 0;
+}
+footer ul{}
+footer ul li{}
+footer ul li a{
+	color: rgb(255 255 255);
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    letter-spacing: 1px;
+}
+footer ul li a:hover{
+	color: #ffdd99;
+	text-decoration: none;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(255 255 255);
+    border-color: rgb(255 255 255);
+    border-radius: 0;
+}
+.navbar-dark .navbar-toggler:hover{
+    color: #87509C;
+    border-color: transparent;
+    background-color: rgb(255 255 255);
+
+}
